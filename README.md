@@ -37,3 +37,39 @@ eg:
 spark-submit --py-files F:\supersoft.recommendation\supersoft.recommendation.zip F:\supersoft.recommendation\src\main\python\com\supersoft\recommendation\offline\boot.py 192.168.1.225:2181:test_group:Statistic:1 DESKTOP-PSPOMTB\SQL2014:sa:123 192.168.1.225:27017:ycfadmin:123
 ```	
 
+## 测试环境：
+
+```
+dependencies:
+- certifi=2016.2.28=py36_0
+- pip=9.0.1=py36_1
+- python=3.6.2=0
+- setuptools=36.4.0=py36_1
+- vc=14=0
+- vs2015_runtime=14.0.25420=0
+- wheel=0.29.0=py36_0
+- wincertstore=0.2=py36_0
+- pip:
+  - boto==2.49.0
+  - boto3==1.7.67
+  - botocore==1.10.67
+  - bz2file==0.98
+  - chardet==3.0.4
+  - docutils==0.14
+  - gensim==3.5.0
+  - idna==2.7
+  - jieba==0.39
+  - jmespath==0.9.3
+  - numpy==1.15.0
+  - py4j==0.10.7
+  - pymongo==3.7.1
+  - pymssql==2.1.3
+  - python-dateutil==2.7.3
+  - requests==2.19.1
+  - s3transfer==0.1.13
+  - scipy==1.1.0
+  - six==1.11.0
+  - smart-open==1.6.0
+  - urllib3==1.23
+  - whoosh==2.7.4
+```
